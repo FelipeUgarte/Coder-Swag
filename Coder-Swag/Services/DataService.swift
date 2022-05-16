@@ -47,18 +47,35 @@ class DataService {
         return categories
     }
     
-    func getProducts(forCategorieTitle title: String) -> [Product] {
+    func getProducts(forCategoryTitle title: String) -> [Product] {
         
         switch title {
             case "SHIRTS":
-                return shirts
+                return getShirts()
             case "HOODIES":
-                return hoodies
+                return getHoodies()
             case "HATS":
-                return hats
+                return getHats()
+            case "DIGITAL":
+                return getDigitalGoods()
             default:
-                return hats
+                return getHats()
                 
         }
+    }
+    func getHats() -> [Product] {
+        return hats
+    }
+    
+    func getShirts() -> [Product] {
+        return shirts
+    }
+    
+    func getHoodies() -> [Product] {
+        return hoodies
+    }
+    
+    func getDigitalGoods() -> [Product] {
+        return digitalGoods
     }
 }
