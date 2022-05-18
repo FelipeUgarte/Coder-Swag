@@ -21,24 +21,23 @@ class DataService {
         Product(title: "Devslopes Logo Grafic Beanie", price: "18", imageName: "hat01.png"),
         Product(title: "Devslopes Logo Hat Black", price: "22", imageName: "hat02.png"),
         Product(title: "Devslopes Logo 3", price: "13", imageName: "hat03.png"),
-        Product(title: "Devslopes Logo 4", price: "14", imageName: "hat04.png"),
+        Product(title: "Devslopes Logo 4", price: "14", imageName: "hat04.png")
         
     ]
     
     private let shirts = [
-        Product(title: "shirts01", price: "11", imageName: "shirts01.png"),
-        Product(title: "shirts02", price: "12", imageName: "shirts02.png"),
-        Product(title: "shirts03", price: "13", imageName: "shirts03.png"),
-        Product(title: "shirts04", price: "14", imageName: "shirts04.png"),
-        
+        Product(title: "Devslopes Logo Shirt Black", price: "$18", imageName: "shirt01.png"),
+        Product(title: "Devslopes Badge Shirt Light Grey", price: "$19", imageName: "shirt02.png"),
+        Product(title: "Devslopes Logo Shirt Red", price: "$18", imageName: "shirt03.png"),
+        Product(title: "Hustle Delegate Grey", price: "$18", imageName: "shirt04.png"),
+        Product(title: "Kickflip Studios Black", price: "$18", imageName: "shirt05.png")
     ]
     
     private let hoodies = [
-        Product(title: "hoodies01", price: "11", imageName: "hoodies01.png"),
-        Product(title: "hoodies02", price: "12", imageName: "hoodies02.png"),
-        Product(title: "hoodies03", price: "13", imageName: "hoodies03.png"),
-        Product(title: "hoodies04", price: "14", imageName: "hoodies04.png"),
-        
+        Product(title: "Devslopes Logo Hoodie Grey", price: "$32", imageName: "hoodie01.png"),
+        Product(title: "Devslopes Logo Hoodie Red", price: "$32", imageName: "hoodie02.png"),
+        Product(title: "Devslopes Hoodie Grey", price: "$32", imageName: "hoodie03.png"),
+        Product(title: "Devslopes Hoodie Black", price: "$32", imageName: "hoodie04.png")
     ]
     
     private let digitalGoods = [Product]()

@@ -18,6 +18,8 @@ class ProductsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
         
         productsCollection.dataSource = self
         productsCollection.delegate = self
+        
+        navigationItem.rightBarButtonItem = editButtonItem
     }
     
     func initProducts(category: Category) {
